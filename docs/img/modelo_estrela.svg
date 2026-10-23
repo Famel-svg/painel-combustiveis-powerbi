@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="460" fill="#ffffff"/>
+  <text x="380" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2933">Modelo estrela: painel-combustiveis-powerbi</text>
+  <g stroke="#52606d" stroke-width="2" fill="none">
+    <line x1="380" y1="200" x2="380" y2="120"/>
+    <line x1="380" y1="260" x2="380" y2="340"/>
+    <line x1="300" y1="230" x2="150" y2="230"/>
+    <line x1="460" y1="230" x2="610" y2="230"/>
+  </g>
+  <g font-size="12" fill="#323f4b">
+    <text x="388" y="168">id_data</text>
+    <text x="388" y="312">id_produto</text>
+    <text x="200" y="222">id_municipio</text>
+    <text x="500" y="222">id_revenda</text>
+  </g>
+  <rect x="280" y="190" width="200" height="110" rx="8" fill="#e8f1fb" stroke="#1f6fb2" stroke-width="2"/>
+  <text x="380" y="214" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f4e79">fato_preco</text>
+  <text x="380" y="236" text-anchor="middle" font-size="12" fill="#323f4b">data, preco</text>
+  <text x="380" y="254" text-anchor="middle" font-size="12" fill="#323f4b">id_data, id_municipio,</text>
+  <text x="380" y="270" text-anchor="middle" font-size="12" fill="#323f4b">id_revenda, id_produto</text>
+  <rect x="280" y="60" width="200" height="60" rx="8" fill="#f4f7f9" stroke="#7b8794" stroke-width="1.5"/>
+  <text x="380" y="86" text-anchor="middle" font-size="14" font-weight="bold" fill="#323f4b">dim_data</text>
+  <text x="380" y="106" text-anchor="middle" font-size="11" fill="#52606d">id_data, data, ano, mes, semana_iso</text>
+  <rect x="280" y="340" width="200" height="60" rx="8" fill="#f4f7f9" stroke="#7b8794" stroke-width="1.5"/>
+  <text x="380" y="366" text-anchor="middle" font-size="14" font-weight="bold" fill="#323f4b">dim_produto</text>
+  <text x="380" y="386" text-anchor="middle" font-size="11" fill="#52606d">id_produto, produto, unidade</text>
+  <rect x="20" y="190" width="130" height="80" rx="8" fill="#f4f7f9" stroke="#7b8794" stroke-width="1.5"/>
+  <text x="85" y="216" text-anchor="middle" font-size="14" font-weight="bold" fill="#323f4b">dim_localidade</text>
+  <text x="85" y="236" text-anchor="middle" font-size="11" fill="#52606d">id_municipio, municipio</text>
+  <rect x="610" y="190" width="130" height="80" rx="8" fill="#f4f7f9" stroke="#7b8794" stroke-width="1.5"/>
+  <text x="675" y="216" text-anchor="middle" font-size="14" font-weight="bold" fill="#323f4b">dim_revenda</text>
+  <text x="675" y="236" text-anchor="middle" font-size="11" fill="#52606d">id_revenda, revenda, bandeira</text>
+  <text x="380" y="438" text-anchor="middle" font-size="12" fill="#52606d">Cardinalidade: muitos (fato) para um (cada dimensão)</text>
+</svg>
